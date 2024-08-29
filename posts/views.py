@@ -35,6 +35,7 @@ class PostsViewSet(ModelViewSet):
 
 class CommentsViewSet(ModelViewSet):
     serializer_class = CommentSerializer
+    permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
         post_id = self.kwargs['post_pk']
