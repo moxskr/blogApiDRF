@@ -8,9 +8,7 @@ from django.contrib.auth.models import User
 
 @pytest.fixture
 def admin_user():
-    admin = User.objects.create_superuser('admin', 'qwerty')
-
-    return admin
+    return User.objects.create_superuser('admin', 'qwerty')
 
 
 @pytest.mark.django_db

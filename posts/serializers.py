@@ -13,7 +13,7 @@ class PostSerializer(serializers.ModelSerializer):
         read_only_fields = ['created_by', 'created_date', 'last_modified_date']
 
     def create(self, validated_data):
-        return Post(**validated_data)
+        return Post.objects.create(**validated_data)
 
 
 class CommentSerializer(serializers.ModelSerializer):
@@ -25,7 +25,7 @@ class CommentSerializer(serializers.ModelSerializer):
         read_only_fields = ['id', 'post', 'created_by', 'created_date', 'last_modified_date']
 
     def create(self, validated_data):
-        return Comment(**validated_data)
+        return Comment.objects.create(**validated_data)
 
 
 class PostDetailSerializer(serializers.ModelSerializer):

@@ -22,11 +22,7 @@ class PostsViewSet(ModelViewSet):
         deserializer = PostSerializer(data=request.data)
 
         if deserializer.is_valid(raise_exception=True):
-            post = deserializer.save()
-
-            post.created_by = request.user
-
-            post.save()
+            post = deserializer.save(created_by=request.user)
 
             serializer = PostSerializer(post)
 
@@ -48,12 +44,7 @@ class CommentsViewSet(ModelViewSet):
         if deserializer.is_valid(raise_exception=True):
             post = Post.objects.get(pk=post_pk)
 
-            comment = deserializer.save()
-
-            comment.created_by = request.user
-            comment.post = post
-
-            comment.save()
+            comment = deserializer.save(post=post, created_by=request.user)
 
             serializer = CommentSerializer(comment)
 

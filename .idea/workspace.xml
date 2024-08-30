@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="916cbdd1-e877-4d81-8d6d-9070d083b9e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/test_comments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_posts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_users.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2lKdJr4TMs69rLLT1QZCnAIg6xc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,6 +40,7 @@
   "keyToString": {
     "Python tests.Python tests for test_example.test_client.executor": "Run",
     "Python tests.Python tests for test_models.test_post_standard_fields_are_set.executor": "Run",
+    "Python tests.Python tests for test_posts.test_get_posts.executor": "Run",
     "Python tests.Python tests for test_users.test_get_users_work_only_for_admin.executor": "Run",
     "Python tests.Python tests for test_users.test_update_users_work_only_for_admin.executor": "Run",
     "Python tests.Python tests for test_users.test_user_creation.executor": "Run",
@@ -54,21 +59,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest for tests">
-    <configuration name="Python tests for test_example.test_client" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="blogApiDrf" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_example.test_client&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_models.test_post_standard_fields_are_set" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="blogApiDrf" />
       <option name="ENV_FILES" value="" />
@@ -81,6 +71,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_models.test_post_standard_fields_are_set&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_posts.test_get_posts" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="blogApiDrf" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_posts.test_get_posts&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -149,19 +154,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest for tests" />
+      <item itemvalue="Python tests.Python tests for test_posts.test_get_posts" />
       <item itemvalue="Python tests.Python tests for test_users.test_update_users_work_only_for_admin" />
-      <item itemvalue="Python tests.Python tests for test_example.test_client" />
       <item itemvalue="Python tests.Python tests for test_models.test_post_standard_fields_are_set" />
       <item itemvalue="Python tests.Python tests for test_users.test_get_users_work_only_for_admin" />
       <item itemvalue="Python tests.Python tests for test_users.test_user_creation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_posts.test_get_posts" />
         <item itemvalue="Python tests.Python tests for test_users.test_update_users_work_only_for_admin" />
         <item itemvalue="Python tests.Python tests for test_users.test_get_users_work_only_for_admin" />
         <item itemvalue="Python tests.Python tests for test_users.test_user_creation" />
         <item itemvalue="Python tests.Python tests for test_models.test_post_standard_fields_are_set" />
-        <item itemvalue="Python tests.Python tests for test_example.test_client" />
       </list>
     </recent_temporary>
   </component>
